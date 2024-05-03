@@ -17,7 +17,7 @@ public class Validate {
         return matcher.matches();
     }
 
-    // Phương thức kiểm tra số điện thoại 10 số
+   
     public static boolean isValidPhone(String phone) {
         Matcher matcher = PHONE_PATTERN.matcher(phone);
         return matcher.matches();
